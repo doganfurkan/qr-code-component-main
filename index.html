@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | QR code component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Outfit,sans-serif;
+      }
+      html,
+      body {
+        background: hsl(212, 45%, 89%);
+        height: 100%;
+      }
+      main {
+        display: grid;
+        place-items: center;
+        min-height: 100%;
+        padding:2em 0;
+      }
+      section {
+        background: #fff;
+        padding: 1em;
+        border-radius: 1.75em;
+        max-width: min(350px, 90%);
+        text-align: center;
+        box-shadow: 2em 2em 7em rgba(0,0,0,0.05);
+      }
+      img {
+        width: 100%;
+        border-radius: 1em;
+      }
+      h1{
+        color:hsl(218, 44%, 22%);
+        padding:1em .5em;
+        font-weight:700
+      }
+      p{
+        color:hsl(220, 15%, 55%);
+        padding:0 1em 2em;
+        font-weight: 400;
+      }
+      footer{
+        text-align: center;
+        padding:1em .5em;
+        color:hsl(220, 15%, 55%);
+      }
+      footer a{
+        color:hsl(218, 44%, 22%);
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section>
+        <img src="./images/image-qr-code.png" alt="qr" />
+        <h1>Improve your front-end skills by building projects</h1>
+        <p>
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </section>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io/profile/doganfurkan" target="_blank" rel="noreferrer"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/doganfurkan">Furkan Doğan</a>.
+    </footer>
+  </body>
+</html>
